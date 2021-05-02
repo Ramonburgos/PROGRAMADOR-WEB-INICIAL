@@ -1,3 +1,32 @@
-h1{ color: blue;
+h1{color: crimson;
+    font-size: 50px;
+    border: 2px solid black;
+}
+
+img{
+    border: 3px solid black;
+}
+
+h2{background-color: rgb(182, 49, 49);
+    color: darkseagreen;
+   font-weight: bold; 
+   font-style: italic;
+}
+
+ul{font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     font-weight: bold;
+}
+
+ol{font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+
+p{font-weight: bolder;
+    font-size: 18px;
+}
+
+.destacado1{color: rgb(30, 5, 122);
+    font-weight: bolder;
+    font-size: 25px;
 
 }
