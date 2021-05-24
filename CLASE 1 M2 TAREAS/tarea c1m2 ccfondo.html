@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarea C1M2 CCFondo</title>
+</head>
+<body>
+    <div class="contenedor">
+        <div class="cuadrado amarillo" onclick="cambiarcolorfondo('yellow')"></div>
+        <div class="cuadrado naranja" onclick="cambiarcolorfondo('orange')"></div>
+        <div class="cuadrado rojo" onclick="cambiarcolorfondo('red')"></div>
+    </div>
+<style>
+.contenedor {
+  display: inline-flexbox;
+}
+
+.cuadrado {
+ height: 100px;
+width: 100px;
+}
+ .amarillo {
+ background-color: yellow;
+ } 
+ .naranja {background-color: orange;
+} 
+.rojo { background-color: red; 
+}
+</style>
+<script>
+ function cambiarcolorfondo(color) {
+document.querySelector('body').style.background = color;
+  }
+</script>
+    
+</body>
+</html>
